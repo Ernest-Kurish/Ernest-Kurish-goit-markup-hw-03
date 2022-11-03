@@ -71,10 +71,9 @@ text-decoration: none;
 
 .container {
 width: 1200px;
-margin-left: auto;
-margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
+margin: 0 auto;
 }
 
 /* ---------------- PORTFOLIO CONTAINERS ------------ */
@@ -475,7 +474,16 @@ text-transform: uppercase;
 }
 /* ---------------------Наші переваги------------------HIDDEN H2 &H1 */
 .visibility-hidden {
-    visibility: hidden;
+     position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
 }
 
 
